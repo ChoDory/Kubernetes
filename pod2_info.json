@@ -1,9 +1,0 @@
-{
-    "pod_name": "pod2",
-    "task_size_range": [
-        1001,
-        3000
-    ],
-    "task_size": 2000,
-    "recommended_cpu_frequency": 1200000
-}
