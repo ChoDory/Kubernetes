@@ -13,10 +13,10 @@ def recommend_cpu_frequency(task_size_range):
         return 1800000
 
 def get_task_sizes():
-    start1 = 101 # pod1(workernode 1)
-    end1 =  10000
-    start2 = 10001 # pod2(workernode 2)
-    end2 = 20000
+    start1 = 10 # pod1(workernode 1)
+    end1 =  999
+    start2 = 1000 # pod2(workernode 2)
+    end2 = 1500
     return (start1, end1), (start2, end2)
 
 # 작업 크기 범위 입력받기
