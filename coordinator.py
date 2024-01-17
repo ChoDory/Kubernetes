@@ -1,5 +1,3 @@
-from flask import Flask, jsonify
-import requests
 import json
 
 def recommend_cpu_frequency(task_size_range):
